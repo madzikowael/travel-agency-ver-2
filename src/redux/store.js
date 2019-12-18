@@ -19,6 +19,11 @@ const initialState = {
       to: 14,
     },
   },
+  order: {
+    trip: null,
+    email: '',
+    options: {},
+  },
 };
 
 // define reducers

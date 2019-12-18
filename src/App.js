@@ -46,7 +46,7 @@ class App extends React.Component {
           <Switch location={location}>
             <Route exact path='/' component={Home} />
             <Route exact path='/trips' component={Trips} />
-            <Route exact path='trip/:id' component={Trip} />
+            <Route exact path='/trip/:id' component={Trip} />
             {/* TODO - add more routes for other views */}
             <Route exact path='/info' component={Info} />
             <Route exact path='/countries' component={Countries} />
