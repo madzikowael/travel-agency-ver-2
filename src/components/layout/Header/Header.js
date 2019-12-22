@@ -28,7 +28,7 @@ class Header extends React.Component {
             </Col>
             <Col md={3} lg={2}>
               <div className={styles.contact}>
-                <Icon name='phone' /><span>678.243.8455</span>
+                <Icon name='phone' /><span>678.243.845</span>
               </div>
             </Col>
           </Row>

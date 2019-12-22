@@ -9,7 +9,7 @@ const OrderOptionNumber = props => {
         value={props.currentValue}
         min={props.limits.min}
         max={props.limits.max}
-        onChange={event => props.setOptionValue(event.currentTarget.value)}
+        onChange={event => props.setOptionValue(parseInt(event.currentTarget.value))}
       />
     </div>
   );
